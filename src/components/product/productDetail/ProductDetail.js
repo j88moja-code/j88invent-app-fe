@@ -48,6 +48,8 @@ const ProductDetail = () => {
                 <img
                   src={product.image.filePath}
                   alt={product.image.fileName}
+                  height="250"
+                  width={"100%"}
                 />
               ) : (
                 <p>No image set for this product</p>
